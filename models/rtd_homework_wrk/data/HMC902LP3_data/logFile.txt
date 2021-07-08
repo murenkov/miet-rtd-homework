@@ -1,0 +1,203 @@
+
+hpeesofsim (*) 511.update1.0 Nov 21 2019, MINT version 5
+    (64-bit windows built: Fri Nov 22, 2019 03:45:24 +0000)
+
+
+OPTIM Optim1[1] <rtd_homework_lib:HMC902LP3:schematic>  optIter=(0->100)
+
+SP Optim1[1].SP1[0] <rtd_homework_lib:HMC902LP3:schematic>  optIter=0  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #0:
+  CurrentEF: 0.088743544395146
+  Optimization variables:
+    mlin_1 = 799.9999999999999e-06
+    mlin_2 = 879.9999999999999e-06
+    mtaper = 1.04e-03
+    stub = 370e-06
+    W_in = 400e-06
+    W_stub = 470e-06
+
+SP Optim1[1].SP1[3] <rtd_homework_lib:HMC902LP3:schematic>  optIter=3  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #3:
+  CurrentEF: 0.0711755423398334
+  Optimization variables:
+    mlin_1 = 1.49e-03
+    mlin_2 = 859.9999999999999e-06
+    mtaper = 1.26e-03
+    stub = 380e-06
+    W_in = 420e-06
+    W_stub = 450e-06
+
+SP Optim1[1].SP1[16] <rtd_homework_lib:HMC902LP3:schematic>  optIter=16  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #16:
+  CurrentEF: 0.0673813646733216
+  Optimization variables:
+    mlin_1 = 1.46e-03
+    mlin_2 = 879.9999999999999e-06
+    mtaper = 1.48e-03
+    stub = 380e-06
+    W_in = 420e-06
+    W_stub = 420e-06
+
+SP Optim1[1].SP1[18] <rtd_homework_lib:HMC902LP3:schematic>  optIter=18  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #18:
+  CurrentEF: 0.054190389558558
+  Optimization variables:
+    mlin_1 = 969.9999999999999e-06
+    mlin_2 = 919.9999999999999e-06
+    mtaper = 1.2e-03
+    stub = 309.9999999999999e-06
+    W_in = 400e-06
+    W_stub = 460e-06
+
+SP Optim1[1].SP1[28] <rtd_homework_lib:HMC902LP3:schematic>  optIter=28  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #28:
+  CurrentEF: 0.0517688679170016
+  Optimization variables:
+    mlin_1 = 1.03e-03
+    mlin_2 = 949.9999999999999e-06
+    mtaper = 1.22e-03
+    stub = 309.9999999999999e-06
+    W_in = 410e-06
+    W_stub = 429.9999999999999e-06
+
+SP Optim1[1].SP1[37] <rtd_homework_lib:HMC902LP3:schematic>  optIter=37  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #37:
+  CurrentEF: 0.0485082073848633
+  Optimization variables:
+    mlin_1 = 1.08e-03
+    mlin_2 = 1.03e-03
+    mtaper = 1.25e-03
+    stub = 300e-06
+    W_in = 410e-06
+    W_stub = 429.9999999999999e-06
+
+SP Optim1[1].SP1[42] <rtd_homework_lib:HMC902LP3:schematic>  optIter=42  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #42:
+  CurrentEF: 0.0465707014393521
+  Optimization variables:
+    mlin_1 = 1.11e-03
+    mlin_2 = 1.04e-03
+    mtaper = 1.21e-03
+    stub = 300e-06
+    W_in = 400e-06
+    W_stub = 420e-06
+
+SP Optim1[1].SP1[53] <rtd_homework_lib:HMC902LP3:schematic>  optIter=53  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #53:
+  CurrentEF: 0.0465351457258923
+  Optimization variables:
+    mlin_1 = 1.12e-03
+    mlin_2 = 1e-03
+    mtaper = 1.3e-03
+    stub = 300e-06
+    W_in = 400e-06
+    W_stub = 429.9999999999999e-06
+
+SP Optim1[1].SP1[57] <rtd_homework_lib:HMC902LP3:schematic>  optIter=57  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #57:
+  CurrentEF: 0.0450404820730947
+  Optimization variables:
+    mlin_1 = 1.11e-03
+    mlin_2 = 980e-06
+    mtaper = 1.31e-03
+    stub = 300e-06
+    W_in = 400e-06
+    W_stub = 410e-06
+
+SP Optim1[1].SP1[59] <rtd_homework_lib:HMC902LP3:schematic>  optIter=59  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #59:
+  CurrentEF: 0.0447539226784328
+  Optimization variables:
+    mlin_1 = 1.11e-03
+    mlin_2 = 959.9999999999999e-06
+    mtaper = 1.35e-03
+    stub = 300e-06
+    W_in = 400e-06
+    W_stub = 410e-06
+
+SP Optim1[1].SP1[77] <rtd_homework_lib:HMC902LP3:schematic>  optIter=77  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #77:
+  CurrentEF: 0.0441802310904716
+  Optimization variables:
+    mlin_1 = 1.1e-03
+    mlin_2 = 959.9999999999999e-06
+    mtaper = 1.34e-03
+    stub = 300e-06
+    W_in = 400e-06
+    W_stub = 400e-06
+
+SP Optim1[1].SP1[101] <rtd_homework_lib:HMC902LP3:schematic>  optIter=101  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #101:
+  CurrentEF: 0.0441802310904716
+  Optimization variables:
+    mlin_1 = 1.1e-03
+    mlin_2 = 959.9999999999999e-06
+    mtaper = 1.34e-03
+    stub = 300e-06
+    W_in = 400e-06
+    W_stub = 400e-06
+
+SP Optim1[1].SP1[145] <rtd_homework_lib:HMC902LP3:schematic>  optIter=145  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #145:
+  CurrentEF: 0.0441647431462291
+  Optimization variables:
+    mlin_1 = 1.1e-03
+    mlin_2 = 949.9999999999999e-06
+    mtaper = 1.34e-03
+    stub = 300e-06
+    W_in = 400e-06
+    W_stub = 400e-06
+
+SP Optim1[1].SP1[146] <rtd_homework_lib:HMC902LP3:schematic>  optIter=146  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #146:
+  CurrentEF: 0.0441493201223957
+  Optimization variables:
+    mlin_1 = 1.1e-03
+    mlin_2 = 939.9999999999999e-06
+    mtaper = 1.34e-03
+    stub = 300e-06
+    W_in = 400e-06
+    W_stub = 400e-06
+
+SP Optim1[1].SP1[147] <rtd_homework_lib:HMC902LP3:schematic>  optIter=147  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #147:
+  CurrentEF: 0.0441339624683452
+  Optimization variables:
+    mlin_1 = 1.1e-03
+    mlin_2 = 929.9999999999999e-06
+    mtaper = 1.34e-03
+    stub = 300e-06
+    W_in = 400e-06
+    W_stub = 400e-06
+
+SP Optim1[1].SP1[148] <rtd_homework_lib:HMC902LP3:schematic>  optIter=148  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #148:
+  CurrentEF: 0.0441186706313458
+  Optimization variables:
+    mlin_1 = 1.1e-03
+    mlin_2 = 919.9999999999999e-06
+    mtaper = 1.34e-03
+    stub = 300e-06
+    W_in = 400e-06
+    W_stub = 400e-06
+Optim1[1] reached the iteration limit. 
+
+Resource usage:
+  Total stopwatch time     =    33.42 seconds.
+

@@ -1,0 +1,9 @@
+; Translated with ADS Netlist Translator (*) 511.update1.0 Nov 16 2019
+;
+;Mapping SPICE functions file to the Netlist
+#ifndef SPCFUNCTIONS_FILE
+#define SPCFUNCTIONS_FILE
+#include "$HPEESOF_DIR/links/spice/spicefunctions.net"
+#endif
+;
+;# MHz Y RI R 1

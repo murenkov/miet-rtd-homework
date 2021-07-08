@@ -1,0 +1,22 @@
+// Copyright Keysight Technologies 2011 - 2013  
+create_text_form("StdForm","Standard",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_text_form("FileBasedForm","File Based",0,"%v","%v",NULL,NULL,NULL,NULL);
+create_form_set("StdFileFormSet","StdForm","FileBasedForm");
+
+create_constant_form("OPEN","OPEN",0,"\"open\"","open");
+create_constant_form("SHORT","SHORT",0,"\"short\"","short");
+create_form_set("SMLOpenShort","OPEN","SHORT");
+
+create_item("BPF_Bessel","Band Pass Filter, Bessel-Thompson","BPF",1073741824,-1,"BPF_Bessel","Component Parameters","*","#uselib \"ckt\" , \"%d\"\n%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","BPF_Bessel","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","SYM_BPF",0,NULL,32,
+create_parm("Fcenter","Passband Center Frequency",3072,"StdFileFormSet",0,prm("StdForm","1.5 GHz")),
+create_parm("BWpass","Passband Edge-to-Edge Width",3072,"StdFileFormSet",0,prm("StdForm","1.0 GHz")),
+create_parm("Apass","Attenuation at Stopband Edges, in dB",3072,"StdFileFormSet",13,prm("StdForm","3.0103 dB")),
+create_parm("GDpass","Group Delay Rolloff at Passband Edge, 0 < GDpass < 1",3072,"StdFileFormSet",-1,prm("StdForm","0.9")),
+create_parm("StopType","Input is open or short for stopband",512,"SMLOpenShort",-2,prm("OPEN")),
+create_parm("MaxRej","Maximum Rejection Level , in dB",3584,"StdFileFormSet",13,prm("StdForm","")),
+create_parm("N","Filter Order (if N > 0, it overwrites GDpass)",3584,"StdFileFormSet",-1,prm("StdForm","0")),
+create_parm("IL","Passband Insertion Loss, in dB",3584,"StdFileFormSet",13,prm("StdForm","0 dB")),
+create_parm("Qu","Unloaded Quality Factor",3584,"StdFileFormSet",-1,prm("StdForm","1E308")),
+create_parm("Z1","Input Port Reference Impedance",3584,"StdFileFormSet",1,prm("StdForm","50 Ohm")),
+create_parm("Z2","Output Port Reference Impedance",3584,"StdFileFormSet",1,prm("StdForm","50 Ohm")),
+create_parm("Temp","Temperature in Degree Celsius",3584,"StdFileFormSet",12,prm("StdForm","")));

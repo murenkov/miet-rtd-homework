@@ -1,0 +1,19 @@
+
+hpeesofsim (*) 511.update1.0 Nov 21 2019, MINT version 5
+    (64-bit windows built: Fri Nov 22, 2019 03:45:24 +0000)
+
+
+SP SP1[1] <rtd_homework_lib:mfilter:schematic>   freq=(6.7 GHz->11.1 GHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    Data in the Touchstone file `C:/murenkov/rtd_homework_wrk/data/components/mfilter/s2p/mfilter.s2p'
+    does not cover the requested value of `freq'.
+    Therefore, the required data was obtained by extrapolation.
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    Noise data in the Touchstone file `C:/murenkov/rtd_homework_wrk/data/components/mfilter/s2p/mfilter.s2p'
+    does not cover the current value of `freq'. Therefore, if noise
+    simulation is requested the data will be obtained by extrapolation.
+
+
+Resource usage:
+  Total stopwatch time     =     8.43 seconds.
+

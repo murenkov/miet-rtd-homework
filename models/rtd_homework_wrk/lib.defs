@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE rtd_homework_lib rtd_homework_lib
+ASSIGN rtd_homework_lib libMode shared

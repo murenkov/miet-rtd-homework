@@ -1,0 +1,83 @@
+
+hpeesofsim (*) 511.update1.0 Nov 21 2019, MINT version 5
+    (64-bit windows built: Fri Nov 22, 2019 03:45:24 +0000)
+
+
+OPTIM Optim1[1] <rtd_homework_lib:HMC633LC4:schematic>  optIter=(0->100)
+
+SP Optim1[1].SP1[0] <rtd_homework_lib:HMC633LC4:schematic>  optIter=0  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #0:
+  CurrentEF: 3.64330223873916e-05
+  Optimization variables:
+    mlin_1 = 810e-06
+    mlin_2 = 910e-06
+    mtaper = 910e-06
+    stub = 300e-06
+    W_in = 420e-06
+    W_stub = 430e-06
+
+SP Optim1[1].SP1[48] <rtd_homework_lib:HMC633LC4:schematic>  optIter=48  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #48:
+  CurrentEF: 2.99473253080604e-05
+  Optimization variables:
+    mlin_1 = 799.9999999999999e-06
+    mlin_2 = 879.9999999999999e-06
+    mtaper = 940e-06
+    stub = 300e-06
+    W_in = 420e-06
+    W_stub = 410e-06
+
+SP Optim1[1].SP1[64] <rtd_homework_lib:HMC633LC4:schematic>  optIter=64  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #64:
+  CurrentEF: 2.80008444422767e-05
+  Optimization variables:
+    mlin_1 = 799.9999999999999e-06
+    mlin_2 = 889.9999999999999e-06
+    mtaper = 879.9999999999999e-06
+    stub = 300e-06
+    W_in = 420e-06
+    W_stub = 420e-06
+
+SP Optim1[1].SP1[68] <rtd_homework_lib:HMC633LC4:schematic>  optIter=68  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #68:
+  CurrentEF: 2.17973781389691e-05
+  Optimization variables:
+    mlin_1 = 799.9999999999999e-06
+    mlin_2 = 909.9999999999999e-06
+    mtaper = 879.9999999999999e-06
+    stub = 300e-06
+    W_in = 420e-06
+    W_stub = 400e-06
+
+SP Optim1[1].SP1[96] <rtd_homework_lib:HMC633LC4:schematic>  optIter=96  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #96:
+  CurrentEF: 1.84642729676127e-05
+  Optimization variables:
+    mlin_1 = 799.9999999999999e-06
+    mlin_2 = 909.9999999999999e-06
+    mtaper = 860e-06
+    stub = 300e-06
+    W_in = 410e-06
+    W_stub = 400e-06
+
+SP Optim1[1].SP1[101] <rtd_homework_lib:HMC633LC4:schematic>  optIter=101  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #101:
+  CurrentEF: 1.84642729676127e-05
+  Optimization variables:
+    mlin_1 = 799.9999999999999e-06
+    mlin_2 = 909.9999999999999e-06
+    mtaper = 860e-06
+    stub = 300e-06
+    W_in = 410e-06
+    W_stub = 400e-06
+Optim1[1] reached the iteration limit. 
+
+Resource usage:
+  Total stopwatch time     =    29.42 seconds.
+

@@ -1,0 +1,191 @@
+
+hpeesofsim (*) 511.update1.0 Nov 21 2019, MINT version 5
+    (64-bit windows built: Fri Nov 22, 2019 03:45:24 +0000)
+
+
+OPTIM Optim1[1] <rtd_homework_lib:TGP2105-SM:schematic>  optIter=(0->100)
+
+SP Optim1[1].SP1[0] <rtd_homework_lib:TGP2105-SM:schematic>  optIter=0  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #0:
+  CurrentEF: 0.00184445755180846
+  Optimization variables:
+    mlin_1 = 799.9999999999999e-06
+    mlin_2 = 860e-06
+    mtaper = 500e-06
+    stub = 420e-06
+    W_in = 950e-06
+    W_stub = 400e-06
+
+SP Optim1[1].SP1[14] <rtd_homework_lib:TGP2105-SM:schematic>  optIter=14  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #14:
+  CurrentEF: 0.00159320438861436
+  Optimization variables:
+    mlin_1 = 820e-06
+    mlin_2 = 1.04e-03
+    mtaper = 590e-06
+    stub = 429.9999999999999e-06
+    W_in = 410e-06
+    W_stub = 990e-06
+
+SP Optim1[1].SP1[17] <rtd_homework_lib:TGP2105-SM:schematic>  optIter=17  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #17:
+  CurrentEF: 0.00135146644475524
+  Optimization variables:
+    mlin_1 = 820e-06
+    mlin_2 = 1.11e-03
+    mtaper = 700e-06
+    stub = 520e-06
+    W_in = 460e-06
+    W_stub = 450e-06
+
+SP Optim1[1].SP1[20] <rtd_homework_lib:TGP2105-SM:schematic>  optIter=20  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #20:
+  CurrentEF: 0.00130260478414064
+  Optimization variables:
+    mlin_1 = 839.9999999999999e-06
+    mlin_2 = 1.13e-03
+    mtaper = 650e-06
+    stub = 530e-06
+    W_in = 450e-06
+    W_stub = 429.9999999999999e-06
+
+SP Optim1[1].SP1[25] <rtd_homework_lib:TGP2105-SM:schematic>  optIter=25  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #25:
+  CurrentEF: 0.000734591537182619
+  Optimization variables:
+    mlin_1 = 820e-06
+    mlin_2 = 1.21e-03
+    mtaper = 540e-06
+    stub = 549.9999999999999e-06
+    W_in = 440e-06
+    W_stub = 400e-06
+
+SP Optim1[1].SP1[48] <rtd_homework_lib:TGP2105-SM:schematic>  optIter=48  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #48:
+  CurrentEF: 0.000689948963425981
+  Optimization variables:
+    mlin_1 = 820e-06
+    mlin_2 = 1.19e-03
+    mtaper = 520.0000000000001e-06
+    stub = 560e-06
+    W_in = 429.9999999999999e-06
+    W_stub = 410e-06
+
+SP Optim1[1].SP1[49] <rtd_homework_lib:TGP2105-SM:schematic>  optIter=49  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #49:
+  CurrentEF: 0.000678312075340908
+  Optimization variables:
+    mlin_1 = 810e-06
+    mlin_2 = 1.23e-03
+    mtaper = 500e-06
+    stub = 580e-06
+    W_in = 429.9999999999999e-06
+    W_stub = 410e-06
+
+SP Optim1[1].SP1[52] <rtd_homework_lib:TGP2105-SM:schematic>  optIter=52  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #52:
+  CurrentEF: 0.000599973450712175
+  Optimization variables:
+    mlin_1 = 810e-06
+    mlin_2 = 1.2e-03
+    mtaper = 500e-06
+    stub = 539.9999999999999e-06
+    W_in = 450e-06
+    W_stub = 410e-06
+
+SP Optim1[1].SP1[72] <rtd_homework_lib:TGP2105-SM:schematic>  optIter=72  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #72:
+  CurrentEF: 0.000597162112235892
+  Optimization variables:
+    mlin_1 = 810e-06
+    mlin_2 = 1.2e-03
+    mtaper = 500e-06
+    stub = 539.9999999999999e-06
+    W_in = 450e-06
+    W_stub = 400e-06
+
+SP Optim1[1].SP1[80] <rtd_homework_lib:TGP2105-SM:schematic>  optIter=80  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #80:
+  CurrentEF: 0.000581273208577275
+  Optimization variables:
+    mlin_1 = 799.9999999999999e-06
+    mlin_2 = 1.19e-03
+    mtaper = 500e-06
+    stub = 530e-06
+    W_in = 450e-06
+    W_stub = 400e-06
+
+SP Optim1[1].SP1[89] <rtd_homework_lib:TGP2105-SM:schematic>  optIter=89  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #89:
+  CurrentEF: 0.000581206684242097
+  Optimization variables:
+    mlin_1 = 799.9999999999999e-06
+    mlin_2 = 1.18e-03
+    mtaper = 500e-06
+    stub = 530e-06
+    W_in = 450e-06
+    W_stub = 400e-06
+
+SP Optim1[1].SP1[90] <rtd_homework_lib:TGP2105-SM:schematic>  optIter=90  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #90:
+  CurrentEF: 0.000581142164762987
+  Optimization variables:
+    mlin_1 = 799.9999999999999e-06
+    mlin_2 = 1.17e-03
+    mtaper = 500e-06
+    stub = 530e-06
+    W_in = 450e-06
+    W_stub = 400e-06
+
+SP Optim1[1].SP1[92] <rtd_homework_lib:TGP2105-SM:schematic>  optIter=92  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #92:
+  CurrentEF: 0.000581079654772916
+  Optimization variables:
+    mlin_1 = 799.9999999999999e-06
+    mlin_2 = 1.16e-03
+    mtaper = 500e-06
+    stub = 530e-06
+    W_in = 450e-06
+    W_stub = 400e-06
+
+SP Optim1[1].SP1[101] <rtd_homework_lib:TGP2105-SM:schematic>  optIter=101  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #101:
+  CurrentEF: 0.000581079654772916
+  Optimization variables:
+    mlin_1 = 799.9999999999999e-06
+    mlin_2 = 1.16e-03
+    mtaper = 500e-06
+    stub = 530e-06
+    W_in = 450e-06
+    W_stub = 400e-06
+
+SP Optim1[1].SP1[149] <rtd_homework_lib:TGP2105-SM:schematic>  optIter=149  freq=(6.7 GHz->11.1 GHz)
+
+Iteration/Trial #149:
+  CurrentEF: 0.000573562356575074
+  Optimization variables:
+    mlin_1 = 799.9999999999999e-06
+    mlin_2 = 1.16e-03
+    mtaper = 500e-06
+    stub = 539.9999999999999e-06
+    W_in = 450e-06
+    W_stub = 400e-06
+Optim1[1] reached the iteration limit. 
+
+Resource usage:
+  Total stopwatch time     =    26.70 seconds.
+
