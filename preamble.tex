@@ -1,0 +1,130 @@
+%% Working with russian language
+\usepackage{cmap}
+\usepackage{mathtext}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{indentfirst}
+\frenchspacing
+\usepackage{cancel}
+
+%% Working with russian language
+% \defaultfontfeatures{Ligatures={TeX},Renderer=Basic}
+% \setmainfont[Ligatures={TeX,Historic}]{Times New Roman}
+% \setmainfont{Times New Roman}
+% \setsansfont{Comic Sans MS}
+% \setmonofont{Courier New}
+
+%% Russian Beamer
+% \newtheorem{rtheorem}{Теорема}
+% \newtheorem{rproof}{Доказательство}
+% \newtheorem{rexpamle}{Пример}
+
+%% Exta work with math
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{icomma}
+\usepackage{euscript}
+\usepackage{mathrsfs}
+\usepackage{gensymb}
+
+%% Extra work with chemistry
+\usepackage{bpchem}
+
+%% My commands
+\DeclareMathOperator{\sgn}{\mathop{sgn}}
+
+%%
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}{\hbox{$\mathsurround=Opt #1$}}{}}
+\newcommand*{\romannum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+
+%% Images
+\usepackage{graphicx}
+\graphicspath{%
+    {images/terms-of-reference}
+}
+\setlength\fboxsep{3pt}
+\setlength\fboxrule{1pt}
+\usepackage{wrapfig}
+\usepackage[lflt]{floatflt}
+\usepackage{subcaption}
+\usepackage{caption}
+\renewcommand\thesubfigure{\asbuk{subfigure}}
+
+%% Tables
+\usepackage{array,tabularx,tabulary,booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{float}
+\restylefloat{table}
+
+%% Programming
+\usepackage{etoolbox}
+
+\usepackage{lastpage}
+\usepackage{soul}
+\usepackage{csquotes}
+\usepackage[style=authoryear,maxcitenames=2,backend=biber,sorting=nty]{biblatex}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+
+\setcounter{tocdepth}{1}
+\usepackage[shortcuts]{extdash}
+\usepackage{verbatim}
+\usepackage{moreenum}
+
+%% Page
+\usepackage{extsizes}
+\usepackage{geometry}
+\geometry{top=25mm}
+\geometry{bottom=35mm}
+\geometry{left=20mm}
+\geometry{right=20mm}
+
+%% Page headers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+% \renewcommand{\headrulewidth}{0pt}
+\lhead{Муренков Ярослав, РТ-33}
+\rhead{}
+
+\usepackage{xcolor}
+\definecolor{light-gray}{gray}{0.8}
+\newcommand{\code}[1]{\colorbox{light-gray}{\texttt{#1}}}
+
+%% Line spacing
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{hyperref}
+\hypersetup{%
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    pdftitle={Большое домашнее задание по курсу <<Проектирование приёмо-передающих устройств в среде Keysight ADS>>},
+    bookmarks=true,
+    pdfpagemode=FullScreen,
+}
+
+%%
+\renewcommand{\epsilon}{\ensuremath{\varepsilon}}
+\renewcommand{\phi}{\ensuremath{\varphi}}
+\renewcommand{\kappa}{\ensuremath{\varkappa}}
+\renewcommand{\le}{\ensuremath{\leqslant}}
+\renewcommand{\leq}{\ensuremath{\leqslant}}
+\renewcommand{\ge}{\ensuremath{\geqslant}}
+\renewcommand{\geq}{\ensuremath{\geqslant}}
+\renewcommand{\emptyset}{\varnothing}
+
+\usepackage{titlesec}
+\titleformat{\chapter}{\LARGE\normalfont\bfseries\filcenter}{}{1em}{}
+\titleformat{\section}{\Large\normalfont\bfseries\filcenter}{}{1em}{}
+\titleformat{\subsection}{\large\normalfont\bfseries\filcenter}{}{1em}{}
+\titleformat{\subsubsection}{\normalfont\bfseries\filcenter}{}{1em}{}
+
