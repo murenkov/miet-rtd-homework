@@ -1,0 +1,3 @@
+LNA1: https://www.analog.com/en/products/hmc902lp3e.html
+LNA2: https://www.analog.com/en/products/hmc633lc4.html
+Phase Shifter: https://www.qorvo.com/products/p/TGP2105-SM
